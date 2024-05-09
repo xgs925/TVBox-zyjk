@@ -79,6 +79,15 @@
             "ext": "https://czzy.top/"
         },
         {
+            "key": "比特",
+            "name": "比特┃秒播",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "文才影院",
             "name": "文才┃BPQ",
             "type": 3,
@@ -318,7 +327,7 @@
         },
         {
             "key": "小白",
-            "name": "小白┃XBPQ",
+            "name": "小白┃BPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": 1,
@@ -331,12 +340,13 @@
                 "二次截取": "pic-list pic-list-focus fn-right&&</ol>",
                 "主页url": "https://www.xbw20.com/",
                 "分类url": "https://www.xbw20.com/vod/{cateId}{catePg}.html[https://www.xbw20.com/vod/{cateId}.html]",
-                "搜索url": "https://www.xbw20.com/search.asp?searchword={wd}",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
                 "起始页": 2,
                 "倒序": 1,
-                "播放数组": "迅雷下载</div>&&</div>",
+                "播放数组": "迅雷下载</div>&&<script>",
                 "播放列表": "<li><&&</a >",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "tittle=\"&&\"",
                 "筛选": {
                     "newmovie": [
                         {
@@ -439,7 +449,7 @@
         },
         {
             "key": "haokongbu",
-            "name": "恐怖┃XBPQ",
+            "name": "恐怖┃BPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -453,6 +463,7 @@
                 "起始页": 2,
                 "倒序": 1,
                 "播放数组": "下载地址</h2>&&</ul>[不包含:网盘]",
+                "播放链接": "href=\"&&\"",
                 "播放列表": "<li>&&</li>[包含:magnet]"
             },
             "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968"
@@ -520,17 +531,6 @@
             "filterable": 1,
             "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
             "ext": "./xBPQ/磁力熊.json"
-        },
-        {
-            "key": "两个BT",
-            "name": "2BT┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": "./xBPQ/两个BT.json"
         },
         {
             "key": "黑狐",
