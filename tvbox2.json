@@ -88,17 +88,6 @@
             "changeable": 1
         },
         {
-            "key": "文才影院",
-            "name": "文才┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": "./xBPQ/文才.json"
-        },
-        {
             "key": "酷看",
             "name": "酷看┃秒播",
             "type": 3,
@@ -164,18 +153,18 @@
             "name": "电影港┃[js]",
             "type": 3,
             "api": "./JS/lib/drpy2.min.js",
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/电影港.js"
+            "ext": "./JS/js/电影港.js"
         },
         {
-            "key": "白嫖",
-            "name": "白飘┃影视",
+            "key": "drpy_js_磁力熊",
+            "name": "磁力熊┃[js]",
             "type": 3,
-            "api": "csp_BaiPiao",
-            "playerType": 2,
+            "api": "./JS/lib/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.baipiaoys.com:9092/"
+            "changeable": 0,
+            "ext": "./JS/js/电影港.js",
+            "timeout": 30
         },
         {
             "key": "py_cctv",
@@ -326,128 +315,6 @@
             }
         },
         {
-            "key": "小白",
-            "name": "小白┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 1,
-            "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": {
-                "请求头": "手机",
-                "编码": "GB2312",
-                "副标题": "time\">&&</label>",
-                "数组": "<li>&&</li>",
-                "二次截取": "pic-list pic-list-focus fn-right&&</ol>",
-                "主页url": "https://www.xbw20.com/",
-                "分类url": "https://www.xbw20.com/vod/{cateId}{catePg}.html[https://www.xbw20.com/vod/{cateId}.html]",
-                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
-                "起始页": 2,
-                "倒序": 1,
-                "播放数组": "迅雷下载</div>&&<script>",
-                "播放列表": "<li><&&</a >",
-                "播放链接": "href=\"&&\"",
-                "播放标题": "tittle=\"&&\"",
-                "筛选": {
-                    "newmovie": [
-                        {
-                            "key": "cateId",
-                            "name": "类型",
-                            "value": [
-                                {
-                                    "n": "全部",
-                                    "v": ""
-                                },
-                                {
-                                    "n": "科幻片",
-                                    "v": "newScience"
-                                },
-                                {
-                                    "n": "动作片",
-                                    "v": "newaction"
-                                },
-                                {
-                                    "n": "恐怖片",
-                                    "v": "newscary"
-                                },
-                                {
-                                    "n": "喜剧片",
-                                    "v": "newcomedy"
-                                },
-                                {
-                                    "n": "爱情片",
-                                    "v": "newromance"
-                                },
-                                {
-                                    "n": "战争片",
-                                    "v": "newwar"
-                                },
-                                {
-                                    "n": "剧情片",
-                                    "v": "newplot"
-                                },
-                                {
-                                    "n": "记录片",
-                                    "v": "newrecord"
-                                }
-                            ]
-                        }
-                    ],
-                    "newTV": [
-                        {
-                            "key": "cateId",
-                            "name": "分类",
-                            "value": [
-                                {
-                                    "n": "分类",
-                                    "v": ""
-                                },
-                                {
-                                    "n": "国产剧",
-                                    "v": "newmainland"
-                                },
-                                {
-                                    "n": "港剧",
-                                    "v": "newtvb"
-                                },
-                                {
-                                    "n": "台剧",
-                                    "v": "newtaiju"
-                                },
-                                {
-                                    "n": "美剧",
-                                    "v": "newoumeiju"
-                                },
-                                {
-                                    "n": "英剧",
-                                    "v": "newyingju"
-                                },
-                                {
-                                    "n": "韩剧",
-                                    "v": "newkorea"
-                                },
-                                {
-                                    "n": "日剧",
-                                    "v": "newriju"
-                                },
-                                {
-                                    "n": "泰剧",
-                                    "v": "newAsia"
-                                },
-                                {
-                                    "n": "印度剧",
-                                    "v": "newyinduju"
-                                },
-                                {
-                                    "n": "新加坡剧",
-                                    "v": "newxinjiapo"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        },
-        {
             "key": "haokongbu",
             "name": "恐怖┃BPQ",
             "type": 3,
@@ -520,17 +387,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://auete.pro/"
-        },
-        {
-            "key": "磁力熊",
-            "name": "磁力熊┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": "./xBPQ/磁力熊.json"
         },
         {
             "key": "黑狐",
