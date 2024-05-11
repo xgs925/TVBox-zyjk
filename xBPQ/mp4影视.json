@@ -11,7 +11,11 @@
                 "标题": "alt=\"《&&》\"",
                 "链接": "href=\"&&\"",
                 "副标题": "rate badge\">&&</span>",
-                "搜索url": "https://www.dbmp4.com/search/{wd}-{pg}.html",
+             //"搜索url": "https://www.dbmp4.com/search/{wd}-{pg}.html",
+                "搜索url": "https://www.dbmp4.com/search/;post;wd={wd}&p={pg}",
+
+
+
                 "搜索模式": "1",
                 "搜索二次截取": "<div id=\"list_all\">&&<div class=\"text-center\">",
                 "搜索数组": "<li>&&</a>",
