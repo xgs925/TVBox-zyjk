@@ -109,17 +109,6 @@
             "ext": "https://www.yjys.me/$$$null$$$1"
         },
         {
-            "key": "白嫖",
-            "name": "白飘┃影视",
-            "type": 3,
-            "api": "csp_BaiPiao",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://ys.51baipiao.net/"
-        },
-        {
             "key": "原创",
             "name": "原创┃影视",
             "type": 3,
@@ -217,6 +206,15 @@
             "playerType": "1",
             "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
             "ext": "./xBPQ/素白白.json"
+        },
+        {
+            "key": "csp_xBPQ_白嫖影视",
+            "name": "白嫖┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": "1",
+            "jar": "./JAR/XBPQ1.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+            "ext": "./xBPQ/白嫖影视.json"
         },
         {
             "key": "mp4影视",
