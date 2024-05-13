@@ -16,7 +16,7 @@
     "搜索链接": "href=\"&&\"",
     "搜索副标题": "<a class=\"video-serial\">&&</a>",
     "线路数组": "div class=\"module-tab-item tab-item selected\"&&/small>[替换:白嫖一线>>线路一#白嫖二线>>线路二#白嫖三线>>线路三]",
-    "线路标题": "<span>&&</small",
+    "线路标题": "span>&&</small",
     "播放数组": "div class=\"scroll-content\"&&</div>",
     "状态": "集数：&&</p>",
     "导演": "导演：&&</p>",
@@ -31,7 +31,7 @@
     "筛选": {
         "1": [
             {
-                "key": "cateid",
+                "key": "cateld",
                 "name": "类型",
                 "value": [
                     {
@@ -397,7 +397,7 @@
         ],
         "2": [
             {
-                "key": "cateid",
+                "key": "cateld",
                 "name": "类型",
                 "value": [
                     {
@@ -695,7 +695,7 @@
         ],
         "3": [
             {
-                "key": "cateid",
+                "key": "cateld",
                 "name": "类型",
                 "value": [
                     {
@@ -941,7 +941,7 @@
         ],
         "29": [
             {
-                "key": "cateid",
+                "key": "cateld",
                 "name": "类型",
                 "value": [
                     {
