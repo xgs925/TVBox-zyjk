@@ -117,7 +117,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.yjys.me/"
+            "ext": "https://ys.51baipiao.net/"
         },
         {
             "key": "原创",
@@ -161,17 +161,17 @@
             "jar": "https://pan.shangui.cc/f/Xq7mid/pg.jar",
             "timeout": 60
         },
-    {
-      "key": "贱贱",
-      "name": "荐片┃JS",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "./JS/lib/drpy.min.js",
-      "ext": "./JS/js/荐片.js"
-    },
+        {
+            "key": "贱贱",
+            "name": "荐片┃JS",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "./JS/lib/drpy.min.js",
+            "ext": "./JS/js/荐片.js"
+        },
         {
             "key": "达达龟",
             "name": "达达┃JS",
