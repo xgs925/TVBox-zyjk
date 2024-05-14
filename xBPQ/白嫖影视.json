@@ -11,10 +11,10 @@
     "搜索url": "https://ys.51baipiao.net/index.php/vod/search/page/{pg}/wd/{wd}.html",
     "搜索模式": "1",
     "搜索数组": "<img class=\"lazy lazyload&&</h3>",
-    "搜索图片": "src=\"&&\"",
+    "搜索图片": "data-src=\"&&\"",
     "搜索标题": "title=\"&&\"",
     "搜索链接": "href=\"&&\"",
-    "搜索副标题": "<a class=\"video-serial\">&&</a>",
+    "搜索副标题": "<a class=\"video-serial\" *>&&</a>",
     "线路数组": "div class=\"module-tab-item tab-item selected\"&&/small>",
     "线路标题": "span>&&</small",
     "播放数组": "div class=\"module-blocklist\"&&</div>",
@@ -36,7 +36,7 @@
                 "value": [
                     {
                         "n": "全部",
-                        "v": ""
+                        "v": "1"
                     },
                     {
                         "n": "动作片",
@@ -402,7 +402,7 @@
                 "value": [
                     {
                         "n": "全部",
-                        "v": ""
+                        "v": "2"
                     },
                     {
                         "n": "国产剧",
@@ -700,7 +700,7 @@
                 "value": [
                     {
                         "n": "全部",
-                        "v": ""
+                        "v": "3"
                     },
                     {
                         "n": "大陆",
@@ -946,7 +946,7 @@
                 "value": [
                     {
                         "n": "全部",
-                        "v": ""
+                        "v": "29"
                     },
                     {
                         "n": "国产动漫",
