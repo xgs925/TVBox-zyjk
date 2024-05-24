@@ -177,6 +177,17 @@
             "ext": "./xBPQ/酒吧影视.json"
         },
         {
+            "key": "小镇",
+            "name": "小镇┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+            "ext": "./xBPQ/电影小镇.json"
+        },
+        {
             "key": "csp_xc",
             "name": "星辰┃BPQ",
             "type": 3,
@@ -187,6 +198,17 @@
             "filterable": 0,
             "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
             "ext": "./xBPQ/星辰影视2.json"
+        },
+        {
+            "key": "csp_红狐狸影视",
+            "name": "狐狸┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+            "ext": {
+                "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
         },
         {
             "key": "csp_xBPQ_素白",
@@ -279,6 +301,33 @@
             "ext": "./xBPQ/淘剧.json"
         },
         {
+            "key": "mp4",
+            "name": "MP4┃磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "playerType": 2,
+            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
+            "ext": "./XYQH/mp4影视.json"
+        },
+        {
+            "key": "新6v",
+            "name": "6V┃磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "playerType": 2,
+            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
+            "ext": "./XYQH/6V电影.json"
+        },
+        {
+            "key": "电影港",
+            "name": "电影港┃磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "playerType": 2,
+            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
+            "ext": "./XYQH/电影港.json"
+        },
+        {
             "key": "drpy_js_JustLive",
             "name": " 直播┃JS",
             "type": 3,
@@ -305,6 +354,52 @@
                 "type": "list",
                 "ratio": 1.1
             }
+        },
+        {
+            "key": "49zy",
+            "name": "49┃资源",
+            "type": 1,
+            "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "短剧",
+                "国产剧",
+                "纪录片",
+                "欧美剧",
+                "香港剧",
+                "动作片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "喜剧片",
+                "动画片",
+                "犯罪片",
+                "韩国剧",
+                "动漫",
+                "电影",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "台湾剧",
+                "国产动漫",
+                "日本动漫",
+                "欧美动漫",
+                "泰国剧",
+                "日剧",
+                "电影解说",
+                "奇幻片",
+                "灾难片",
+                "悬疑片",
+                "其他片",
+                "体育赛事",
+                "海外剧"
+            ]
         },
         {
             "key": "量子资源",
@@ -396,7 +491,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./JAR/XYQH.jar",
+            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
             "ext": "./XYQH/儿童启蒙.json"
         },
         {
