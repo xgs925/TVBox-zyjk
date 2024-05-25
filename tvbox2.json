@@ -106,7 +106,7 @@
             "quickSearch": 1,
             "searchable": 1,
             "jar": "./JAR/pg.jar",
-            "ext": "https://www.yjys.me/$$$null$$$1"
+            "ext": "https://bddyy.top/$$$null$$$1"
         },
         {
             "key": "玩偶",
@@ -366,7 +366,7 @@
             "key": "量子资源",
             "name": "量子┃资源",
             "type": 1,
-            "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
             "playurl": "json:https://tvmvip.com/lz2.php?url=",
             "searchable": 1,
             "quickSearch": 1,
