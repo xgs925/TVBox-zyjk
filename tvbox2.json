@@ -154,17 +154,17 @@
             "api": "./JS/lib/drpy.min.js",
             "ext": "./JS/js/子子影视.js"
         },
-{
-      "key": "可可",
-      "name": "可可┃多线",
-      "type": 3,
-      "api": "csp_Kekys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+        {
+            "key": "可可",
+            "name": "可可┃多线",
+            "type": 3,
+            "api": "csp_Kekys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
         {
             "key": "csp_酒吧影视",
             "name": "酒吧┃BPQ",
@@ -573,19 +573,19 @@
                 "from": "4k|auto|fhd"
             }
         },
-    {
-      "key": "PanSearch",
-      "name": "盘Se┃搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "aliToken": "tvbox/token.txt",
-        "from": "4k|auto|fhd"
-      }
-    },
+        {
+            "key": "PanSearch",
+            "name": "盘Se┃搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "aliToken": "tvbox/token.txt",
+                "from": "4k|auto|fhd"
+            }
+        },
         {
             "key": "應用商店",
             "name": "应用商店",
@@ -597,17 +597,18 @@
             "ext": "https://fm.t4tv.hz.cz/json/market.json"
         },
         {
-      "key": "push_agent",
-      "name": "手机┃推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": {
-        "aliToken": "tvbox/token.txt",
-        "quarkCookie": "tvbox/cookie.txt",
-        "from": "4k|auto|fhd"
-      }
+            "key": "push_agent",
+            "name": "手机┃推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext": {
+                "aliToken": "tvbox/token.txt",
+                "quarkCookie": "tvbox/cookie.txt",
+                "from": "4k|auto|fhd"
+            }
+        }
     ],
     "parses": [
         {
