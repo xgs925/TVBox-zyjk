@@ -229,18 +229,6 @@
             "ext": "./xBPQ/白嫖影视.json"
         },
         {
-            "key": "mp4影视",
-            "name": "MP4┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "playerType": "1",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./xBPQ/mp4影视.json"
-        },
-        {
             "key": "XBPQ_4k影视",
             "name": "影视┃BPQ",
             "jar": "./JAR/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
@@ -270,17 +258,6 @@
             "ext": "./xBPQ/悠云影视.json"
         },
         {
-            "key": "Auete",
-            "name": "奥特┃直连",
-            "type": 3,
-            "api": "csp_Auete",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://auete.pro/"
-        },
-        {
             "key": "黑狐",
             "name": "黑狐┃BPQ",
             "type": 3,
@@ -308,6 +285,15 @@
             "playerType": 2,
             "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
             "ext": "./XYQH/mp4影视.json"
+        },
+        {
+            "key": "不太灵",
+            "name": "不太灵┃磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "playerType": 2,
+            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
+            "ext": "./XYQH/不太灵.json"
         },
         {
             "key": "新6v",
