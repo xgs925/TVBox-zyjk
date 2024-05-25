@@ -287,15 +287,6 @@
             "ext": "./XYQH/mp4影视.json"
         },
         {
-            "key": "不太灵",
-            "name": "不太灵┃磁力",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "playerType": 2,
-            "jar": "./JAR/XYQH.jar;md5;81544697BC790013FC5BB1D2939BF0B6",
-            "ext": "./XYQH/不太灵.json"
-        },
-        {
             "key": "新6v",
             "name": "6V┃磁力",
             "type": 3,
@@ -306,7 +297,7 @@
         },
         {
             "key": "电影港",
-            "name": "电影港┃磁力",
+            "name": "影港┃磁力",
             "type": 3,
             "api": "csp_XYQHiker",
             "playerType": 2,
@@ -324,22 +315,6 @@
             },
             "changeable": 0,
             "ext": "./JS/js/JustLive.js"
-        },
-        {
-            "key": "Bt0",
-            "name": "电影┃磁力",
-            "type": 3,
-            "api": "csp_Bt0",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "jar": "./JAR/pg.jar",
-            "ext": "http://152.32.170.60/leevi/PiG/raw/branch/master/lib/tokenm.json$$$null$$$192.168.101.1:1080$$$1",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            }
         },
         {
             "key": "49zy",
@@ -449,7 +424,7 @@
             "key": "ikun",
             "name": "ikun┃资源",
             "type": 1,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
+            "api": "https://ikunzyapi.com/api.php/provide/vod/?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
             "playerType": 1,
             "searchable": 1,
