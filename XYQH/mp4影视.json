@@ -68,7 +68,7 @@
     "简介详情": "</h2>&&</p>",
     "线路列表数组规则": "id=download&&</h2>",
     "线路标题": "h2>&&</h2>",
-    "播放列表数组规则": "<ul class="panel down-list thunder*">&&</ul>",
+    "播放列表数组规则": "panel down-list thunder*>&&</ul>",
     "选集列表数组规则": "<li>&&复制地址",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&Text",
