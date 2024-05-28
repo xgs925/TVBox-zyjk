@@ -17,7 +17,7 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://www.66ss.org/{cateId}/index_{catePg}.html[firstPage=https://www.66ss.org/{cateId}/index.html]",
+    "class_url": "https://www.xb6v.com/{cateId}/index_{catePg}.html[firstPage=https://www.xb6v.com/{cateId}/index.html]",
     //分类名，分类1&分类2&分类3
     "class_name": "喜剧片&动作片&爱情片&科幻片&恐怖片&剧情片&战争片&纪录片&动画片&电视剧&综艺",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
@@ -50,7 +50,7 @@
     "SHeaders":"User-Agent$PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://www.66ss.org/e/search/index.php;post",
+    "search_url": "https://www.xb6v.com/e/search/index.php;post",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"show=title&tempid=1&tbname=article&mid=1&dopost=search&submit=&keyboard={wd}",
 	//"sea_PtBody":"keyboard={wd}&submit=搜+索&show=title,smalltext&tempid=1&tbname=article",
