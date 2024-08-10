@@ -1,5 +1,5 @@
 {
-    "spider": "./JAR/fan.jar;md5;71d846866f2ceb9666ba114e5963983f",
+    "spider": "./JAR/fan.jar;md5;67D1780EE22D022E0551FB8DE5DB17B6",
     "lives": [
         {
             "name": "live",
@@ -35,11 +35,15 @@
             "filterable": 0
         },
         {
-            "key": "drpy_js_豆瓣",
-            "name": " 豆瓣┃[js]",
+            "key": "豆瓣",
+            "name": "豆瓣┃推荐",
             "type": 3,
-            "api": "https://ghproxy.net/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/lib/drpy.min.js",
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/drpy.js"
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "indexs": 1,
+            "jar": "./JAR/pg.jar;md5;7C03297C89AA832F88092D4567664AD8",
+            "ext": "./json/douban.json"
         },
         {
             "key": "厂长",
@@ -101,7 +105,7 @@
             "type": 3,
             "api": "csp_Xunlei8",
             "changeable": 1,
-            "jar": "./JAR/pg.jar;md5;2EA7BC2067F0FFECF9A07F81D704D4E1",
+            "jar": "./JAR/pg.jar;md5;7C03297C89AA832F88092D4567664AD8",
             "timeout": 60
         },
         {
@@ -620,7 +624,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "jar": "./JAR/pg.jar;md5;2EA7BC2067F0FFECF9A07F81D704D4E1",
+            "jar": "./JAR/pg.jar;md5;7C03297C89AA832F88092D4567664AD8",
             "ext": "https://fm.t4tv.hz.cz/json/market.json"
         },
         {
