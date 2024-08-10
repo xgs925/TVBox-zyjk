@@ -33,8 +33,6 @@
             "api": "csp_Douban",
             "searchable": 0,
             "changeable": 0,
-            "indexs": 1,
-            "jar": "./JAR/pg.jar;md5;7C03297C89AA832F88092D4567664AD8",
             "ext": "./json/douban.json"
         },
         {
